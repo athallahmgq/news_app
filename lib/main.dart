@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:news_app_coba/screens/api_screen.dart';
+import 'package:news_app_coba/screens/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(colorScheme: ColorScheme.light()),
-      home: const ScreenApi(),
+      home: const SplashScreen(),
     );
     
   }
